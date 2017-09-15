@@ -14,7 +14,6 @@ class Reader
     public function __construct(Parser $parser = null)
     {
         $this->parser = (new ParserFactory)->create(ParserFactory::PREFER_PHP7);
-        die(get_class($this->parser));
     }
 
     /**
