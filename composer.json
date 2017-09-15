@@ -1,20 +1,20 @@
 {
     "name": "hpkns/wp-config-parser",
     "description": "Read the users defined values from a wp-config.php file",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hpkns\\WordpressConfig\\": "./"
-        }
-    },
     "authors": [
         {
             "name": "Thomas Hupkens",
             "email": "thomas@hupkens.be"
         }
     ],
-    "minimum-stability": "stable",
+    "license": "MIT",
     "require": {
         "nikic/php-parser": "^3.1"
     }
+    "autoload": {
+        "psr-4": {
+            "Hpkns\\WordpressConfig\\": "./"
+        }
+    },
+    "minimum-stability": "stable",
 }
